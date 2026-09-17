@@ -1,1 +1,21 @@
+schemaVersion: 1.2
 
+endpoints:
+  - name: mcp
+    displayName: MCP Server
+    service:
+      basePath: /mcp
+      port: 9092
+    type: REST
+    networkVisibilities:
+      - Public
+
+  - name: voice-agent
+    displayName: Voice Agent
+    service:
+      basePath: /
+      port: 9091
+    type: WS
+    networkVisibilities:
+      - Public
+    schemaFilePath: asyncapi.yaml
