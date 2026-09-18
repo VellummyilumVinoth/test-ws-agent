@@ -18,4 +18,4 @@ endpoints:
     type: WS
     networkVisibilities:
       - Public
-    schemaFilePath: asyncapi.yaml
+    schemaFilePath: .choreo/asyncapi.yaml

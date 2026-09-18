@@ -6,7 +6,7 @@ distribution = "2201.13.6"
 title = "test"
 
 [build-options]
-sticky = false
+sticky = true
 
 [[dependency]]
 org = "vinothvellummyilum"
